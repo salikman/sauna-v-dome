@@ -217,7 +217,7 @@ section {
           -o-transition: all .5s ease;
           transition: all .5s ease; }
           .header .navbar-info ul li a:hover {
-            color: #000000; }
+            color: #f4a124; }
   .header .navbar__block {
     padding: 0 5px; }
   .header .navbar-brand {
