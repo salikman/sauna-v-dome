@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+
+    <!-- CSS стили -->
+    <link rel="stylesheet" href="css/libs.css">
+    <link href="http://sauna-v-dome.com.ua/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Шапка -->
+    <header class="header header-page">
+        <!-- Навигация -->
+        <nav id="nav" class="navbar">
+            <div class="navbar-info">
+                <div class="container">
+                    <div class="navbar-info-wrap">
+                        <div class="navbar__block">
+                            <i class="fa fa-calendar"></i>
+                            <strong>График работы:</strong>
+                            <span>Пн-Сб.: с 8:00 до 21:00, Вс.: Выходной</span>
+                        </div>
+                        <div class="navbar__block">
+                            <ul>
+                                <li><strong>E-mail:</strong> lizgard@ukr.net</li>
+                                <li><a href="#"><i class="fa fa-wifi"></i> Статус заказа</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="navbar-wrap">
+                    <div class="navbar-brand">
+                        <!-- Логотип -->
+                        <a href="index.html">
+                            <img class="brand" src="img/logo.png" width="130" alt="brand">
+                            <img class="brand--black" src="img/logo-black.png" width="130" alt="brand">
+                        </a>
+                        <!-- /Логотип -->
+                    </div>
+                    <!-- Свертывания навигации -->
+                    <div id="navbar-collapse" class="navbar-collapse">
+                        <span></span>
+                    </div>
+                    <div id="navbar-aside" class="navbar-aside">Категории</div>
+                    <div id="navbar-shop" class="navbar-shop">
+                        <i class="fa fa-shopping-cart"></i>
+                    </div>
+                    <!-- /Свертывания навигации -->
+                    <ul class="navbar-menu">
+                        <!-- Меню -->
+                        <li class="active"><a href="#">Главная</a></li>
+                        <li><a href="#">Каталог товаров</a></li>
+                        <li><a href="#">Галерея</a></li>
+                        <li><a href="#">Условия</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <!-- /Меню -->
+                    </ul>
+                    <!-- /.navbar-nav -->
+                    <div class="navbar-buttons">
+                        <div class="dropdown-phone">
+                            <a href="#" class="dropbtn ">(096) 480 08 89<i class="fa fa-chevron-down"></i></a>
+                            <div class="phone-content">
+                                <a href="#">(096) 480 08 89</a>
+                                <a href="#">(096) 480 08 89</a>
+                                <a href="#">(096) 480 08 89</a>
+                            </div>
+                        </div>
+                        <a class="btn navbar__btn phone-switch" data-fancybox data-src="#hidden-phone"
+                            href="javascript:;">
+                            <i class="fa fa-phone"></i>
+                            Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- /Навигация -->
+    </header>
+    <!-- /Шапка -->
+
+    <div class="block-100 bread">
+        <div class="pod-block bg_015">
+            <div class="padding">
+
+
+                <!-- [!Breadcrumbs &crumbBoxClass=`crumbBoxClass`!] -->
+                <ul class="bread-line">
+                    <li><span class="B_firstCrumb"><a class="B_homeCrumb" href="/" title="Главная">Главная</a></span>
+                    </li>
+                    <li><span class="B_lastCrumb"><span class="B_currentCrumb">Каталог</span></span></li>
+                </ul>
+                <!-- [!Breadcrumbs &crumbBoxClass=`crumbBoxClass`!] -->
+
+
+            </div>
+        </div>
+    </div>
+
+    <section class="two-column">
+        <div class="block-100">
+            <div class="pod-block bg_015">
+                <div class="padding ">
+
+                    <!-- {{left-side}} -->
+                    <aside class="left-side mCustomScrollbar _mCS_1 mCS_no_scrollbar">
+                        <div id="mCSB_1" class="mCustomScrollBox mCS-light mCSB_vertical mCSB_inside"
+                            style="max-height: none;" tabindex="0">
+                            <div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y"
+                                style="position: relative; left: 0px; top: 0px;" dir="ltr">
+                                <div class="block block-trash">
+                                    <h4 class="h4-title">Корзина</h4>
+                                    <div class="padding">
+                                        <div class="shop-cart pos-ab" id="shopCart">
+                                            <div class="chose-box">
+                                                <div id="cartEmpty" class="wt-border">Корзина пуста</div><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="block block-search">
+                                    <h4 class="h4-title">Поиск</h4>
+                                    <div class="padding">
+                                        <form action="">
+                                            <input type="search" placeholder="Поиск">
+                                            <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <div class="block block-list-categories">
+                                    <div class="padding">
+                                        <ul id="accordion" class="accordion">
+                                            <li>
+                                                <div class="link">Электрические каменки <i
+                                                        class="fa fa-chevron-down"></i></div>
+                                                <ul class="submenu">
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pechi-elektricheskie/sawo-elektricheslie-pechi">Sawo
+                                                            (Финляндия)</a></li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pechi-elektricheskie/harvia-elektricheslie-pechi">Harvia
+                                                            (Финляндия)</a></li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pechi-elektricheskie/narvi-elektricheskie-pechi">Narvi
+                                                            (Финляндия) </a></li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pechi-elektricheskie/sentiotec">Sentiotec
+                                                            (Австрия)</a></li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pechi-elektricheskie/ewald-lang-germaniya">Ewald
+                                                            Lang (Германия)</a></li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pechi-elektricheskie/fintec">FinTec
+                                                            (Германия)</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <div class="link">Пульты для управления <i
+                                                        class="fa fa-chevron-down"></i></div>
+                                                <ul class="submenu">
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pult-upravleniya/relset-ukraina">Relset
+                                                            (Украина)</a></li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pult-upravleniya/harvia-finlyandiya">Harvia
+                                                            (Финляндия)</a></li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pult-upravleniya/sawo-finlyandiya">Sawo
+                                                            (Финляндия)</a></li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pult-upravleniya/sentiotec-avstriya">Sentiotec
+                                                            (Австрия)</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <div class="link">Дровяные каменки <i class="fa fa-chevron-down"></i>
+                                                </div>
+                                                <ul class="submenu">
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pechi-drovyanie/kastor-drovyaniy-pechi">Kastor</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pechi-drovyanie/harvia-drovyanye-pechi">Harvia
+                                                            (Финляндия)</a></li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pechi-drovyanie/narvi-elektricheskie-pechi">Narvi</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pechi-drovyanie/helo">HELO</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pechi-drovyanie/fintec">FinTec</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pechi-drovyanie/ukrainskie-pechi-drovyanye">Украинские
+                                                            печи </a></li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/pechi-drovyanie/rossijskie-pechi-drovyanye">Российские
+                                                            печи </a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li>
+                                                <div class="link">Двери для сауны <i class="fa fa-chevron-down"></i>
+                                                </div>
+                                                <ul class="submenu">
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/dveri-dla-sauni/valte-ukraina">VALTE
+                                                            (Украина)</a></li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/dveri-dla-sauni/saunax-estoniya">SAUNAX
+                                                            (Эстония)</a></li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/dveri-dla-sauni/tesli-ukraina">TESLI
+                                                            (Украина)</a></li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/dveri-dla-sauni/sawo">SAWO</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/dveri-dla-sauni/ukrainskoe-proizvodstvo">Украинское
+                                                            производство</a></li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/dveri-dla-sauni/andres">Andres</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <div class="link">Материалы для сауны <i class="fa fa-chevron-down"></i>
+                                                </div>
+                                                <ul class="submenu">
+                                                    <li><a href="komplektuuschie-stroitelstvo-saun/vagonka">Вагонка</a>
+                                                    </li>
+                                                    <li><a href="komplektuuschie-stroitelstvo-saun/lezhaki-poloki">Лежаки
+                                                            (полоки) </a></li>
+                                                    <li><a href="komplektuuschie-stroitelstvo-saun/brus-karkasnyj">Брус
+                                                            каркасный </a></li>
+                                                    <li><a href="komplektuuschie-stroitelstvo-saun/pogonazh">Погонаж</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <div class="link">Разное <i class="fa fa-chevron-down"></i></div>
+                                                <ul class="submenu">
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/dymohodi">Дымоходы</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/osveshhenie">Освещение</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/ventilyaciya">Вентиляция</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="komplektuuschie-stroitelstvo-saun/termoizolyaciya">Термоизоляция</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <div class="link">Услуги <i class="fa fa-chevron-down"></i></div>
+                                                <ul class="submenu">
+                                                    <li><a href="fotogalereya-sauny-bani">Фотогалерея</a></li>
+                                                    <li><a href="stroitelstvo-sauny">Строительство сауны</a></li>
+                                                    <li><a href="montazh-saun">Монтаж саун</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="mCSB_1_scrollbar_vertical"
+                                class="mCSB_scrollTools mCSB_1_scrollbar mCS-light mCSB_scrollTools_vertical"
+                                style="display: none;">
+                                <div class="mCSB_draggerContainer">
+                                    <div id="mCSB_1_dragger_vertical" class="mCSB_dragger"
+                                        style="position: absolute; min-height: 30px; height: 0px; top: 0px;">
+                                        <div class="mCSB_dragger_bar" style="line-height: 30px;"></div>
+                                    </div>
+                                    <div class="mCSB_draggerRail"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                    <!-- /{{left-side}} -->
+
+
+                    <div class="right-side">
+                        <div class="padding">
+
+
+
+                            <div class="main-category">
+                                <div class="block-title-categories">
+                                    <h3 class="h3-title">Электрокаменки - Печи электрические</h3>
+                                </div>
+                                <ul>
+
+                                    <!-- [!Ditto? &tpl=`cat-in-li` &parents=`17` &orderBy=`menuindex ASC`!] -->
+                                    <ul>
+
+                                        <li>
+                                            <a href="komplektuuschie-stroitelstvo-saun/pechi-elektricheskie/sawo-elektricheslie-pechi"
+                                                class="block">
+                                                <div class="block">
+                                                    <img src="http://sauna-v-dome.com.ua/assets/images/cat-in/pechi-elektricheskie/cat-sawo.jpg"
+                                                        alt="Sawo электрические печи">
+                                                </div>
+                                                <span>Sawo (Финляндия)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="komplektuuschie-stroitelstvo-saun/pechi-elektricheskie/harvia-elektricheslie-pechi"
+                                                class="block">
+                                                <div class="block">
+                                                    <img src="http://sauna-v-dome.com.ua/assets/images/cat-in/pechi-elektricheskie/cat_harvia.jpg"
+                                                        alt="Harvia электрические печи">
+                                                </div>
+                                                <span>Harvia (Финляндия)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="komplektuuschie-stroitelstvo-saun/pechi-elektricheskie/narvi-elektricheskie-pechi"
+                                                class="block">
+                                                <div class="block">
+                                                    <img src="http://sauna-v-dome.com.ua/assets/images/cat-in/pechi-elektricheskie/cat_narvi.jpg"
+                                                        alt="Нарви электрические печи">
+                                                </div>
+                                                <span>Narvi (Финляндия) </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="komplektuuschie-stroitelstvo-saun/pechi-elektricheskie/sentiotec"
+                                                class="block">
+                                                <div class="block">
+                                                    <img src="http://sauna-v-dome.com.ua/assets/images/cat-in/pechi-elektricheskie/cat-sentiotec.jpg"
+                                                        alt="">
+                                                </div>
+                                                <span>Sentiotec (Австрия)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="komplektuuschie-stroitelstvo-saun/pechi-elektricheskie/ewald-lang-germaniya"
+                                                class="block">
+                                                <div class="block">
+                                                    <img src="http://sauna-v-dome.com.ua/assets/images/cat-in/pechi-elektricheskie/cat-langs.jpg"
+                                                        alt="">
+                                                </div>
+                                                <span>Ewald Lang (Германия)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="komplektuuschie-stroitelstvo-saun/pechi-elektricheskie/fintec"
+                                                class="block">
+                                                <div class="block">
+                                                    <img src="http://sauna-v-dome.com.ua/assets/images/cat-in/pechi-elektricheskie/cat-fintec.jpg"
+                                                        alt="">
+                                                </div>
+                                                <span>FinTec (Германия)</span>
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                    <!-- [!Ditto? &tpl=`cat-in-li` &parents=`17` &orderBy=`menuindex ASC`!] -->
+
+                                </ul>
+                            </div>
+
+                            <div class="main-category">
+                                <div class="block-title-categories">
+                                    <h3 class="h3-title">Пульты управления к электрокаменкам</h3>
+                                </div>
+                                <ul>
+
+                                    [!Ditto? &tpl=`cat-in-li` &parents=`29` &orderBy=`menuindex ASC`!]
+
+
+                                </ul>
+                            </div>
+
+                            <div class="main-category">
+                                <div class="block-title-categories">
+                                    <h3 class="h3-title">Дровяные каменки - Печи дровяные</h3>
+                                </div>
+                                <ul>
+                                    [!Ditto? &tpl=`cat-in-li` &parents=`16` &orderBy=`menuindex ASC`!]
+                                </ul>
+                            </div>
+
+                            <div class="main-category">
+                                <div class="block-title-categories">
+                                    <h3 class="h3-title">Двери для саун</h3>
+                                </div>
+                                <ul>
+                                    [!Ditto? &tpl=`cat-in-li` &parents=`24` &orderBy=`menuindex ASC`!]
+                                </ul>
+                            </div> <!-- // main-category -->
+
+
+                            <div class="main-category">
+                                <div class="block-title-categories">
+                                    <h3 class="h3-title">Материалы для саун</h3>
+                                </div>
+                                <ul>
+                                    [!Ditto? &tpl=`cat-in-li` &documents=`18,19,20,21` &orderBy=`menuindex ASC`!]
+                                </ul>
+                            </div> <!-- // main-category -->
+
+
+                            <div class="main-category">
+                                <div class="block-title-categories">
+                                    <h3 class="h3-title">Прочее для саун</h3>
+                                </div>
+                                <ul>
+                                    [!Ditto? &tpl=`cat-in-li` &documents=`23,27,28,22` &orderBy=`menuindex ASC`!]
+                                </ul>
+                            </div> <!-- // main-category -->
+
+
+
+                        </div>
+                    </div> <!-- //right-side -->
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-nav">
+                <div class="footer-logo">
+                    <img src="img/logo.png" alt="Сауна в дому">
+                </div>
+                <nav class="footer-menu">
+                    <a class="footer-menu__link" href="#">Главная</a>
+                    <a class="footer-menu__link" href="#">Каталог товаров</a>
+                    <a class="footer-menu__link" href="#">Галерея</a>
+                    <a class="footer-menu__link" href="#">Условия</a>
+                    <a class="footer-menu__link" href="#">Гарантии</a>
+                    <a class="footer-menu__link" href="#">Политика сайта</a>
+                </nav>
+                <div class="footer-social">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copy">© 2020 All rights reserved.</div>
+        </div>
+    </footer>
+    <!-- /Футер -->
+
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Презагрузка -->
+    <!-- Поиск -->
+    <div id="hidden-search" style="display: none;background: transparent;">
+        <div class="search-modal">
+            <div class="search-modal-wrap">
+                <form class="search-modal-form">
+                    <input type="text" id="modal-input" placeholder="Поиск...">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /Поиск -->
+    <!-- Форма обратной связи -->
+    <div id="hidden-phone" style="display: none;background: transparent;">
+        <div class="phone-modal">
+            <div class="phone-modal-wrap">
+                <form class="phone-modal-form">
+                    <div>
+                        <input type="text" name="name" autocomplete="off" required>
+                        <label for="name" class="label-txt">
+                            <span class="content-txt">Имя</span>
+                        </label>
+                    </div>
+                    <div>
+                        <input type="text" name="tel" autocomplete="off" required>
+                        <label for="tel" class="label-txt">
+                            <span class="content-txt">Телефон</span>
+                        </label>
+                    </div>
+                    <button class="btn btn--orange">Заказать</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /Форма обратной связи -->
+    <!-- jQuery библиотеки -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

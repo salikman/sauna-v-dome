@@ -1,0 +1,24 @@
+%svg-common {
+	background: url("svg/sprite.view.svg") no-repeat;
+}
+
+.svg-arrow_back {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.svg-arrow_back-dims {
+	width: 52px;
+	height: 52px;
+}
+
+.svg-arrow_carrot_up_alt {
+	@extend %svg-common;
+	background-position: 100% 0;
+}
+
+.svg-arrow_carrot_up_alt-dims {
+	width: 52px;
+	height: 52px;
+}
+
